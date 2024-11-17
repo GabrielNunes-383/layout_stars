@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  justify-content: center;
+  display: flex;
+}
+
+.stars--1 > .stars_star:first-child, .stars--2 > .stars_star:first-child, .stars--2 > .stars_star:nth-child(2), .stars--3 > .stars_star:first-child, .stars--3 > .stars_star:nth-child(2), .stars--3 > .stars_star:nth-child(3), .stars--4 > .stars_star:first-child, .stars--4 > .stars_star:nth-child(2), .stars--4 > .stars_star:nth-child(3), .stars--4 > .stars_star:nth-child(4), .stars--5 > .stars_star:first-child, .stars--5 > .stars_star:nth-child(2), .stars--5 > .stars_star:nth-child(3), .stars--5 > .stars_star:nth-child(4), .stars--5 > .stars_star:nth-child(5) {
+  background-image: url("star-yellow.3590b711.png");
+}
+
+.stars_star {
+  background-image: url("star-grey.8fcc9727.png");
+  width: 16px;
+  height: 16px;
+  margin-right: 20px;
+  display: flex;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
